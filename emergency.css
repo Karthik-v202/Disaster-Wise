@@ -1,0 +1,122 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('login.jpg');
+    background-size:cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0; /* Remove default margin */
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem; /* Increased margin */
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    padding: 0.5rem 1rem 0.5rem 2.5rem; /* Adjust padding for icon */
+    border-radius: 2rem; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    outline: none;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.search-box i {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.emergency-contacts-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.emergency-contacts {
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 900px;
+}
+
+.emergency-contacts h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333; /* Darker text color */
+}
+
+.contact-list {
+    background-color: #f0f0f0; /* Lighter background for the list */
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+    gap: 1rem; /* Spacing between contact items */
+}
+
+.contact-item {
+    text-align: center;
+    color: #333;
+}
+
+.contact-name {
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+.contact-phone {
+    font-size: 0.9rem;
+}
+
+
+.navigation-bar {
+    background-color: white;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Shadow at the top */
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer; /* Make items clickable */
+}
+
+.nav-item i {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    color: #555; /* Slightly darker icon color */
+}
+
+.nav-item span {
+    font-size: 0.8rem;
+    color: #555; /* Slightly darker text color */
+}
+
+.nav-item.active i, .nav-item.active span {
+    color: #007bff; /* Highlight active item */
+}

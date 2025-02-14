@@ -1,0 +1,186 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('login.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 2rem; 
+    border-radius: 1.7rem; 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+
+.login-title {
+    font-size: 1.5rem; 
+    font-weight: 1000;
+    margin-bottom: 1.5rem; 
+    font-size: xx-large;
+    top: 10rem;
+}
+
+.username {
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: medium;
+    padding: 0.75rem 0rem;
+    border-radius: 1.5rem;
+    margin-bottom: 0.6rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s, transform 0.2s; 
+}
+
+.username:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.02); 
+    outline-width:none;
+}
+
+.password {
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 0.75rem 0rem;
+    border-radius: 1.5rem;
+    margin-bottom: 0.6rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s, transform 0.2s; 
+}
+
+.password::placeholder{
+    font-size: medium;
+}
+
+.password:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.02); 
+}
+
+.login {
+    width: 40%;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 0.5rem 0rem;
+    border-radius: 1.5rem;
+    margin-bottom: 0.6rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.login:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.02);
+}
+
+.login-button {
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 0.75rem 1rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s, transform 0.2s; 
+}
+
+.login-button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.02); 
+}
+
+.google-button {
+  /* Add Google specific styles if needed */
+}
+
+.x-button {
+  /* Add X (Twitter) specific styles if needed */
+}
+
+
+.login-text {
+    color: #536885; /* Slightly darker text color */
+    margin-top: 1rem; /* Increased margin */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700
+}
+
+.login-link {
+    color: #233355; /* Darker link color */
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login-link:hover {
+    color: rgb(52, 105, 121);
+    text-decoration: solid;
+    
+}
+span {
+    margin-right: 0.4rem;
+}
+
+.navigation-bar {
+    background-color: white;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Shadow at the top */
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer; /* Make items clickable */
+}
+
+.nav-item i {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    color: #555; /* Slightly darker icon color */
+}
+
+.nav-item span {
+    font-size: 0.8rem;
+    color: #555; /* Slightly darker text color */
+}
+
+.nav-item.active i, .nav-item.active span {
+    color: #007bff; /* Highlight active item */
+}
+
+.back-button { /* Style the back button */
+    position: absolute; /* Or fixed, depending on desired behavior */
+    top: 20px; /* Adjust top position as needed */
+    left: 20px; /* Adjust left position as needed */
+    background-color: transparent; /* Example blue color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Optional: Add hover effect */
+.back-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
