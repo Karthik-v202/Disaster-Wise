@@ -77,55 +77,55 @@ body {
 }
 
 .disaster-item:nth-child(1) {
-    background-image: url("earthquake.jpeg"); /* Replace with your image URL */
+    background-image: url("https://karthik-v202.github.io/Disaster-Wise/src/earthquake.jpeg"); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
 }
 
 .disaster-item:nth-child(2) {
-    background-image: url("tsunami.jpeg"); /* Replace with your image URL */
+    background-image: url("https://karthik-v202.github.io/Disaster-Wise/src/tsunami.jpeg"); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
 }
 
 .disaster-item:nth-child(3) {
-    background-image: url("flood.jpg"); /* Replace with your image URL */
+    background-image: url("https://karthik-v202.github.io/Disaster-Wise/src/flood.jpg"); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
 }
 
 .disaster-item:nth-child(4) {
-    background-image: url("landslide.jpg"); /* Replace with your image URL */
+    background-image: url("https://karthik-v202.github.io/Disaster-Wise/src/landslide.jpg"); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
 }
 
 .disaster-item:nth-child(5) {
-    background-image: url("cyclone.jpg"); /* Replace with your image URL */
+    background-image: url("https://karthik-v202.github.io/Disaster-Wise/src/cyclone.jpg"); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
 }
 
 .disaster-item:nth-child(6) {
-    background-image: url("tornado.jpg"); /* Replace with your image URL */
+    background-image: url("https://karthik-v202.github.io/Disaster-Wise/src/tornado.jpg"); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
 }
 
 .disaster-item:nth-child(7) {
-    background-image: url("volcano.jpg"); /* Replace with your image URL */
+    background-image: url("https://karthik-v202.github.io/Disaster-Wise/src/volcano.jpg"); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
 }
 
 .disaster-item:nth-child(8) {
-    background-image: url("wildfire.jpg"); /* Replace with your image URL */
+    background-image: url("https://karthik-v202.github.io/Disaster-Wise/src/wildfire.jpg"); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
 }
 
 .disaster-item:nth-child(9) {
-    background-image: url("avalanch.jpg"); /* Replace with your image URL */
+    background-image: url("https://karthik-v202.github.io/Disaster-Wise/src/avalanch.jpg"); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
 }
