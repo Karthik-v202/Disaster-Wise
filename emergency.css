@@ -89,34 +89,40 @@ body {
 
 
 .navigation-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: white;
-    border-radius: 10rem;
-    padding: 1rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0.75rem 0; /* Adjusted padding */
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Shadow at the top */
-     margin-bottom: 2rem;
+    border-radius: 10rem;
+    margin-bottom: 2rem;
 }
 
 .nav-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: pointer; /* Make items clickable */
+    cursor: pointer;
+    color: #555;
 }
 
 .nav-item i {
-    font-size: 1.2rem;
-    margin-bottom: 0.2rem;
-    color: #555; /* Slightly darker icon color */
+    font-size: 1.25rem; /* Adjusted icon size */
+    margin-bottom: 0.25rem;
+    color: #555;
 }
 
 .nav-item span {
-    font-size: 0.8rem;
-    color: #555; /* Slightly darker text color */
+    font-size: 0.85rem; /* Adjusted font size */
+    color: #555;
 }
 
+.nav-item.active {
+    color: #007bff;
+}
 .nav-item.active i, .nav-item.active span {
     color: #007bff; /* Highlight active item */
 }
