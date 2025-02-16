@@ -90,13 +90,13 @@ body {
 
 .navigation-bar {
     background-color: white;
-    border-top-left-radius: 1.5rem;
-    border-top-right-radius: 1.5rem;
+    border-radius: 10rem;
     padding: 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Shadow at the top */
+     margin-bottom: 2rem;
 }
 
 .nav-item {
