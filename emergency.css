@@ -89,23 +89,38 @@ body {
 
 
 .navigation-bar {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     background-color: white;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-    padding: 0.75rem 0; /* Adjusted padding */
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 1rem;
     display: flex;
     justify-content: space-around;
-    border-radius: 10rem;
-    margin-bottom: 2rem;
+    align-items: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Shadow at the top */
 }
 
 .nav-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: pointer;
+    cursor: pointer; /* Make items clickable */
+}
+
+.nav-item i {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    color: #555; /* Slightly darker icon color */
+}
+
+.nav-item span {
+    font-size: 0.8rem;
+    color: #555; /* Slightly darker text color */
+}
+
+.nav-item.active i, .nav-item.active span {
+    color: #007bff; /* Highlight active item */
+}
+
     color: #555;
 }
 
