@@ -90,8 +90,8 @@ body {
 
 .navigation-bar {
     background-color: white;
-    border-top-left-radius: 1.5rem;
-    border-top-right-radius: 1.5rem;
+    border-radius: 10rem;
+    margin-bottom: 2rem;
     padding: 1rem;
     display: flex;
     justify-content: space-around;
