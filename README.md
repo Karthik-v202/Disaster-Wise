@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Disaster-Wise</h1>
+<a href="https://github.com/Karthik-v202/Disaster-Wise/blob/main/src/Designer.png"> <h1 align="center" id="title">Disaster-Wise</h1>
 
 <h2 id="description">Domain : Disaster Management</h2>
 
