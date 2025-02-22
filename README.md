@@ -1,4 +1,4 @@
- <h1>                 Disaster-Wise</h1>
+ <h1 text-align: center>                 Disaster-Wise</h1>
 
 Domain : Disaster Management
 
