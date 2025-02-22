@@ -1,3 +1,4 @@
+<p align="center"><img src="https://i.postimg.cc/hGBdnPP4/Designer.png" alt="project-image" width=10rem></p>
 <h1 align="center" id="title">Disaster Wise</h1>
 
 Domain : Disaster Management
