@@ -48,17 +48,11 @@
      - Emergency Contacts:Local disaster management authorities, shelters, and helplines.  
      - Resource Recommendations:Suggested items such as first aid kits, water filters, and survival tools.  
 
-    6. Targeted Recommendations:  
+    <h3>6. Targeted Recommendations:</h3>  
    - For tourists: Tailored advice based on trip duration and local conditions.  
    - For new residents: Long-term preparation plans, such as securing homes against disasters.  
 
      7. User Engagement:
    - The platform can allow users to download preparation guides for offline use.  
    - Regular updates keep users informed of changing conditions (e.g., imminent storms).  
-
-     8. Future Enhancements:
-   - Integration with live data feeds (weather reports, seismic activity).  
-   - Push notifications for emergency alerts.  
-   - Expansion into mobile apps for easier accessibility.
-
 </h3>
