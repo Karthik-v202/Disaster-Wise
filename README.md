@@ -5,7 +5,7 @@
 
 <h3>This project is created for "HACKATLY'24" a National Level Hackathon conducted by IEDC unit of College of Engineering Thalassery</h3>
 
-<h2><a href="https://karthik-v202.github.io/Disaster-Wise/home.html"></a> Demo</h2>
+<h2><a href="https://karthik-v202.github.io/Disaster-Wise/home.html"> Demo</h2>
 
 <h2 id="Problem-statement"></h2>
 <h3>Natural disasters pose significant risks to human lives and properties, often leaving individuals unprepared for their impact. People moving to new locations or visiting unfamiliar areas lack knowledge about potential disasters and the necessary precautions to take. There is a need for an accessible, user-friendly platform that provides localized disaster predictions and preparedness guidelines to help individuals plan and respond effectively. This gap hinders disaster awareness and preparedness among communities, increasing vulnerability and potential losses during disasters.</h3>
