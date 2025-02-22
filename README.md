@@ -5,6 +5,7 @@ Domain : Disaster Management
 
 This project is created for "HACKATLY'24" a National Level Hackathon conducted by IEDC unit of College of Engineering Thalassery
 
+## Demo
 🚀 Demo https://karthik-v202.github.io/Disaster-Wise/home.html
 
 
