@@ -7,7 +7,6 @@ This project is created for "HACKATLY'24" a National Level Hackathon conducted b
 
 🚀 Demo https://karthik-v202.github.io/Disaster-Wise/home.html
 
-## Demo
 
 ## Screenshots
 
