@@ -38,3 +38,5 @@ This project is created for "HACKATLY'24" a National Level Hackathon conducted b
 - [Archana V S](https://github.com/ArchanaVS2004)
 
 - [Toms John](https://github.com/ArchanaVS2004)
+
+- [Karthik V S](https://github.com/Karthik-v202)
