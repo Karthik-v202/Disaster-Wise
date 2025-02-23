@@ -36,3 +36,5 @@ This project is created for "HACKATLY'24" a National Level Hackathon conducted b
 ## Authors
 
 - [Archana V S](https://github.com/ArchanaVS2004)
+
+- [Toms John](https://github.com/ArchanaVS2004)
